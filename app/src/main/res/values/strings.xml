@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChattingApp</string>
+    <string name="sendMessage">Type Something</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="leftChat">Left Chat View</string>
+    <string name="rightChat">Right Chat View</string>
+</resources>
