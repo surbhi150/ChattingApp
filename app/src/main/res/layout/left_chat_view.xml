@@ -2,16 +2,19 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:paddingTop="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/leftChat"
-        android:textSize="@dimen/size_30sp"
+        android:textSize="@dimen/size_18sp"
+        android:paddingHorizontal="15dp"
         android:textColor="@color/black"
         android:fontFamily="sans-serif-condensed"
-        android:background="@color/white"
+        android:background="@drawable/square"
+        android:backgroundTint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/tvLeft"/>

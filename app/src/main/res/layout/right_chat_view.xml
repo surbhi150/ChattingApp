@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:padding="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -10,9 +11,11 @@
         android:text="@string/rightChat"
         android:textColor="@color/black"
         android:fontFamily="sans-serif-condensed"
-        android:textSize="@dimen/size_30sp"
+        android:textSize="@dimen/size_18sp"
+        android:paddingHorizontal="15dp"
+        android:backgroundTint="#C9F39A"
         android:id="@+id/tvRight"
-        android:background="#BEF182"
+        android:background="@drawable/square"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
